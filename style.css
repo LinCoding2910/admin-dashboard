@@ -1,3 +1,9 @@
+:root {
+    --text-white: rgb(240,240,240);
+    --red: #DC0714;
+    --green: #00634D;
+}
+
 * {
     margin: 0;
 }
@@ -20,18 +26,30 @@ body {
     display: grid;
     grid-template-rows: repeat(3, min-content); 
     gap: 25px;
-    background-color: darkred;
+    background-color: var(--red);
+    color: var(--text-white);
+}
+
+.dashboard-logo, .general-menu, .configurations-menu {
+    display: grid;
+    grid-template-columns: repeat(2, min-content);
+    align-items: center;
+    gap: 10px;
 }
 
 .dashboard-logo {
-    display: grid;
-    gap: 5px;
-    font-size: 1.4em;
+    gap: 10px;
+    font-size: 1.5em;
 }
+
+#dashboard-icon {
+    font-size: 1.5em;
+}
+
 .general-menu, .configurations-menu {
-    display: grid;
-    gap: 5px;
-    font-size: 1.2em;
+    grid-auto-flow: column;
+    gap: 10px;
+    font-size: 1.25em;
 }
 
 .general-menu {
