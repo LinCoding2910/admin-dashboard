@@ -5,10 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Dashboard</title>
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <style>
-        .material-symbols-outlined {
+        span {
           font-variation-settings:
           'FILL' 0,
           'wght' 500,
@@ -16,6 +15,10 @@
           'opsz' 24
         }
     </style> 
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="header">
@@ -67,71 +70,71 @@
     <div class="main">
         <div class="club-news">
             <h3>Your club</h3>
-            <div>
+            <div class="info-cards">
                 <h5>Salah enters Top 10 goalscorer in EPL</h5>
-                <p>He becomes the EPL player to have 10th highest amount of goals after scoring equalizer in Arsenal 1-1. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Donec et odio pellentesque diam volutpat commodo sed.
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Donec et odio pellentesque diam volutpat commodo sed.
                 </p>
             </div>
-            <div>
+            <div class="info-cards">
                 <h5>'Walk of Fame'</h5>
                 <p>Hendrerit dolor magna eget est lorem ipsum dolor sit amet consectetur adipiscing elit pellentesque.
                 </p>
             </div>
-            <div>
+            <div class="info-cards">
                 <h5>Thiago Aclantara: Injury update</h5>
-                <p>He can at one point be in team training in a month's time. Met purus gravida quis blandit turpis cursus in hac habitasse platea dictumst quisque sagittisauctor urna nunc id cursus metus aliquam.
+                <p>Met purus gravida quis blandit turpis cursus in hac habitasse platea dictumst quisque sagittisauctor urna nunc id cursus metus aliquam.
                 </p>
             </div>
-            <div>
+            <div class="info-cards">
                 <h5>Salah scores his 200th for Liverpool</h5>
-                <p>Goal against Crystal Palace allows him to reach the 200-goal mark. Eget duis at tellus at urna condimentum mattis. Suspendisse et dolor orci. Quisque ut aliquet purus. In at erat quam. Praesent vestibulum commodo laoreet. Nulla sit.
+                <p>Eget duis at tellus at urna condimentum mattis. Suspendisse et dolor orci. Quisque ut aliquet purus. In at erat quam. Praesent vestibulum commodo laoreet. Nulla sit.
                 </p>
             </div>
-            <div>
-                <h5>New Signing: Wataru Endo (£16.2m)</h5>
-                <p>Midfielder, STU > LIV. Fames ac turpis egestas integer eget aliquet nibh. Praesent habitasse platea dictumst quisque sagittis.
+            <div class="info-cards">
+                <h5>New Signing: Wataru Endo (Mid, £16.2m)</h5>
+                <p>Fames ac turpis egestas integer eget aliquet nibh. Praesent habitasse platea dictumst quisque sagittis.
                 </p>
             </div>
-            <div>
-                <h5>New Signing: Alexis Mac Allister (£35M)</h5>
-                <p>Midfielder, BHA > LIV. Praesent non imperdiet est. Quisque augue turpis, ultricies eget hendrerit eget, vulputate eu urna. Phasellus nisl lectus, luctus vitae tortor.
+            <div class="info-cards">
+                <h5>New Signing: Alexis Mac Allister (Mid, £35M)</h5>
+                <p>Praesent non imperdiet est. Quisque augue turpis, ultricies eget hendrerit eget, vulputate eu urna. Phasellus nisl lectus, luctus vitae tortor.
                 </p>
             </div>
         </div>
         <div class="global-news">
             <h3>Global</h3>
-            <div>
-<h5>Man City wins Club World Cup</h5>
-<p>Cras nisl erat, imperdiet vitae felis nec, dignissim laoreet felis. Ut semper orci et tortor efficitur, a rutrum.
-</p>
+            <div class="info-cards">
+                <h5>Man City wins Club World Cup</h5>
+                <p>Cras nisl erat, imperdiet vitae felis nec, dignissim laoreet felis. Ut semper orci et tortor efficitur, a rutrum.
+                </p>
             </div>
-            <div>
-<h5>Europa glory for the underdogs</h5>
-<p>Sed nulla enim, semper nec elementum ac, egestas vitae enim. Quisque ullamcorper metus vel lacinia malesuada. Pellentesque vitae.
-</p>
+            <div class="info-cards">
+                <h5>Europa glory for the underdogs</h5>
+                <p>Sed nulla enim, semper nec elementum ac, egestas vitae enim. Quisque ullamcorper metus vel lacinia malesuada. Pellentesque vitae.
+                </p>
             </div>
-            <div>
-<h5>Manchester United's sale saga</h5>
-<p>Maecenas ultrices tellus sit amet metus porttitor ullamcorper. Cras posuere ac mauris a aliquet. Donec vestibulum purus at.
-</p>
+            <div class="info-cards">
+                <h5>Manchester United's sale saga</h5>
+                <p>Maecenas ultrices tellus sit amet metus porttitor ullamcorper. Cras posuere ac mauris a aliquet. Donec vestibulum purus at.
+                </p>
             </div>
         </div>
         <div class="stats">
             <h3>Stats</h3>
-            <div>
-<!-- <img src="" alt=""> -->
-<h5>Salah</h5>
-<p>16 goals, 7 assists</p>
+            <div class="info-cards">
+                <!-- <img src="" alt=""> -->
+                <h5>Salah</h5>
+                <p>16 goals, 7 assists</p>
             </div>
-            <div>
-<!-- <img src="" alt=""> -->
-<h5>Mac Allister</h5>
-<p>1 goal, 2 assists</p>
+            <div class="info-cards">
+                <!-- <img src="" alt=""> -->
+                <h5>Mac Allister</h5>
+                <p>1 goal, 2 assists</p>
             </div>
-            <div>
-<!-- <img src="" alt=""> -->
-<h5>Nunez</h5>
-<p>5 goals, 5 assists</p>
+            <div class="info-cards">
+                <!-- <img src="" alt=""> -->
+                <h5>Nunez</h5>
+                <p>5 goals, 5 assists</p>
             </div>
         </div>
     </div>
